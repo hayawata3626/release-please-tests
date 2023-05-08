@@ -1,1 +1,5 @@
-console.log("This is a test!!");
+function test(name) {
+  console.log(name);
+}
+
+test('taro');
