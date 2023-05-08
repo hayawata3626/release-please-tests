@@ -1,1 +1,5 @@
-console.log('this is a design-system dir.');
+function test(name) {
+  console.log(name);
+}
+
+test('design-system');
