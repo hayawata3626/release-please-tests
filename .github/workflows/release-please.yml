@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - prod
+      - main
 
 permissions:
   contents: write
@@ -17,5 +17,5 @@ jobs:
         with:
           release-type: node
           package-name: release-please-action
-          default-branch: prod
+          default-branch: main
           monorepo-tags: true
