@@ -2,4 +2,4 @@ function test(name) {
   console.log(name);
 }
 
-test('taro');
+test('----api----');
